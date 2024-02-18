@@ -1321,17 +1321,26 @@ input[type="text"] {
 .nav-bar{
     display: flex;
     justify-content: space-around;
+    background-color: #1c1b20;
+    height: 50px;
 }
 
 .nav-options{
-    color:white;
+    color:rgb(255, 255, 255);
     list-style-type:none;
     margin:0px;
     padding:0px;
-
+    margin-top: 10px;
+    cursor: pointer;
 }
+
 .lii{
     display:inline;
     margin-left:20px;
-    font-size:25px
+    font-size:20px;
+}
+
+.lii:hover{
+  cursor: pointer;
+  text-decoration: underline;
 }
